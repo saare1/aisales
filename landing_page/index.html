@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Sales Closer | Intelligent Lead Conversion</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>AI Sales Closer</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#demo">Try It Now</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#contact" class="btn-primary">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Convert Leads While You Sleep</h1>
+                <h2>AI-Powered Sales Agent with Compliance Guardrails</h2>
+                <p>Our intelligent sales agent handles conversations with leads, recommends products, and closes deals - all with built-in compliance protection.</p>
+                <div class="hero-buttons">
+                    <a href="#demo" class="btn-primary">Try It Now</a>
+                    <a href="#features" class="btn-secondary">Learn More</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://via.placeholder.com/500x400" alt="AI Sales Closer Interface">
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful Features</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-comments"></i></div>
+                    <h3>Natural Conversations</h3>
+                    <p>Engage leads with human-like conversations that feel authentic and personalized.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-shield-alt"></i></div>
+                    <h3>Compliance Guardrails</h3>
+                    <p>Built-in protection against risky topics with automatic escalation to human agents.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Sentiment Analysis</h3>
+                    <p>Detect lead sentiment and adjust conversation tone automatically.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-gift"></i></div>
+                    <h3>Product Recommendations</h3>
+                    <p>Intelligently suggest relevant products based on lead conversations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-calendar-check"></i></div>
+                    <h3>Automated Follow-ups</h3>
+                    <p>Schedule and send follow-up messages to nurture leads effectively.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fas fa-file-alt"></i></div>
+                    <h3>Detailed Reporting</h3>
+                    <p>Get comprehensive insights on lead engagement and conversation outcomes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="benefits">
+        <div class="container">
+            <h2 class="section-title">Why Choose AI Sales Closer?</h2>
+            <div class="benefits-grid">
+                <div class="benefit">
+                    <h3><i class="fas fa-clock"></i> 24/7 Availability</h3>
+                    <p>Never miss a lead inquiry, even outside business hours.</p>
+                </div>
+                <div class="benefit">
+                    <h3><i class="fas fa-dollar-sign"></i> Reduced Costs</h3>
+                    <p>Lower your sales team costs while increasing conversion rates.</p>
+                </div>
+                <div class="benefit">
+                    <h3><i class="fas fa-rocket"></i> Faster Response Times</h3>
+                    <p>Instant responses to lead inquiries improve conversion chances.</p>
+                </div>
+                <div class="benefit">
+                    <h3><i class="fas fa-sync"></i> Consistent Experience</h3>
+                    <p>Deliver the same high-quality sales experience to every lead.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="demo" class="demo">
+        <div class="container">
+            <h2 class="section-title">Try It Now</h2>
+            <p class="demo-subtitle">Experience the AI Sales Closer in action with this live demo</p>
+            
+            <div class="chat-container">
+                <div class="chat-header">
+                    <div class="chat-avatar">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="chat-name">
+                        <h3>AI Sales Assistant</h3>
+                        <span class="status">Online</span>
+                    </div>
+                </div>
+                <div class="chat-messages" id="chat-messages">
+                    <div class="message agent">
+                        <div class="message-content">
+                            <p>Hello! I'm your AI Sales Assistant. How can I help you today?</p>
+                        </div>
+                        <div class="message-time">Just now</div>
+                    </div>
+                </div>
+                <div class="chat-input">
+                    <input type="text" id="user-message" placeholder="Type your message here...">
+                    <button id="send-message"><i class="fas fa-paper-plane"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Pricing Plans</h2>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">$99<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 100 conversations/month</li>
+                            <li><i class="fas fa-check"></i> Basic compliance guardrails</li>
+                            <li><i class="fas fa-check"></i> Email channel support</li>
+                            <li><i class="fas fa-check"></i> Weekly reports</li>
+                            <li><i class="fas fa-times"></i> Product recommendations</li>
+                            <li><i class="fas fa-times"></i> Sentiment analysis</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-secondary">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-header">
+                        <h3>Professional</h3>
+                        <div class="price">$299<span>/month</span></div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Up to 500 conversations/month</li>
+                            <li><i class="fas fa-check"></i> Advanced compliance guardrails</li>
+                            <li><i class="fas fa-check"></i> Email & chat support</li>
+                            <li><i class="fas fa-check"></i> Daily reports</li>
+                            <li><i class="fas fa-check"></i> Product recommendations</li>
+                            <li><i class="fas fa-check"></i> Sentiment analysis</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-primary">Get Started</a>
+                </div>
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">Contact Us</div>
+                    </div>
+                    <div class="pricing-features">
+                        <ul>
+                            <li><i class="fas fa-check"></i> Unlimited conversations</li>
+                            <li><i class="fas fa-check"></i> Custom compliance rules</li>
+                            <li><i class="fas fa-check"></i> All channels supported</li>
+                            <li><i class="fas fa-check"></i> Custom reporting</li>
+                            <li><i class="fas fa-check"></i> API integration</li>
+                            <li><i class="fas fa-check"></i> Dedicated support</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get Started Today</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Ready to boost your sales?</h3>
+                    <p>Fill out the form and our team will get back to you within 24 hours to set up your AI Sales Closer.</p>
+                    <div class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@aisalescloser.com</span>
+                    </div>
+                    <div class="contact-method">
+                        <i class="fas fa-phone"></i>
+                        <span>+1 (555) 123-4567</span>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="lead-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company</label>
+                            <input type="text" id="company" name="company" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <h2>AI Sales Closer</h2>
+                    <p>Intelligent lead conversion with built-in compliance</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#benefits">Benefits</a></li>
+                        <li><a href="#demo">Demo</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Compliance</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Stay Updated</h3>
+                    <p>Subscribe to our newsletter for the latest updates</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email address">
+                        <button type="submit"><i class="fas fa-arrow-right"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 AI Sales Closer. All rights reserved.</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
